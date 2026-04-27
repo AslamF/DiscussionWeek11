@@ -1,0 +1,34 @@
+---
+title: "Discussion11"
+format: html
+editor: visual
+---
+
+## Discussion 11 - Analyze a Commercial Recomender 
+
+## Scenario Design Analysis 
+
+My chosen company is spotify. There should be two scenario designs done. One for the Company and one for the end user. The company has clients such as artists and then eventually the end user, the listeners.
+
+The Organization Scenario Design
+
+1.  Target Users –\> Advertisers, Record Labels, Independent Artists.
+2.  Key Goals –\> Maximizing subscriber retention, increasing time on platform, maintaining relationships with advertisers and labels
+3.  How can the System Help? – \> By personalizing discovery. Users can discover niche artists they resonate with which you cannot find in store.
+
+The End User Scenario Design
+
+1.  Target Users –\> People who listen to music, casual listeners, hard-core fans.
+2.  Key Goals –\> Access familiar music, discover new music, create playlists
+3.  How can the system help? –\> Providing curated playlists that the user will enjoy based on previous experiences. Using past listening history to make recommendations.
+
+## Reverse Engineering 
+
+1.  Collaborative Filtering –\> Spotify build an utility matrix from user behavior. User actions like "Play", "Skip", "Save" are treated as rating values. For example a user skipping a song can mean they don't enjoy it and that can be backed by the frequency in which they skip that individual song.
+2.  Contextual signals —\> Time of day, device, and recent session behavior all affect what gets recommended to an individual at that time. After-work, late night, early morning recommendations all change. This all has an influence on what the user listens to at a certain time.
+
+## Recommendations for Improvement
+
+1.  Context separation –\> Shared devices can pollute recommendations. If 2 people share a device and listen to different music, it will affect the personal recommendation.
+2.  Consistency –\> Consistently recommend music based on listening preferences. it happens infrequently. It should be systematic and routine.
+3.  On-boarding –\> Have a more robust on-boarding system that can be more interactive with actual audio snippets versus simple questions on user preference.
